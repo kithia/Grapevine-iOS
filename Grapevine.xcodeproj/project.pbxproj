@@ -1,0 +1,603 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		078F225829907EEA00895E5D /* GrapevineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F225729907EEA00895E5D /* GrapevineApp.swift */; };
+		078F225A29907EEA00895E5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F225929907EEA00895E5D /* ContentView.swift */; };
+		078F225C29907EEF00895E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078F225B29907EEF00895E5D /* Assets.xcassets */; };
+		078F225F29907EEF00895E5D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078F225E29907EEF00895E5D /* Preview Assets.xcassets */; };
+		078F226129907EEF00895E5D /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F226029907EEF00895E5D /* Persistence.swift */; };
+		078F226429907EEF00895E5D /* Grapevine.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 078F226229907EEF00895E5D /* Grapevine.xcdatamodeld */; };
+		078F226E29907EEF00895E5D /* GrapevineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F226D29907EEF00895E5D /* GrapevineTests.swift */; };
+		078F227829907EEF00895E5D /* GrapevineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F227729907EEF00895E5D /* GrapevineUITests.swift */; };
+		078F227A29907EEF00895E5D /* GrapevineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F227929907EEF00895E5D /* GrapevineUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		078F226A29907EEF00895E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078F224C29907EEA00895E5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078F225329907EEA00895E5D;
+			remoteInfo = Grapevine;
+		};
+		078F227429907EEF00895E5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 078F224C29907EEA00895E5D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 078F225329907EEA00895E5D;
+			remoteInfo = Grapevine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		078F225429907EEA00895E5D /* Grapevine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grapevine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		078F225729907EEA00895E5D /* GrapevineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapevineApp.swift; sourceTree = "<group>"; };
+		078F225929907EEA00895E5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		078F225B29907EEF00895E5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		078F225E29907EEF00895E5D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		078F226029907EEF00895E5D /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		078F226329907EEF00895E5D /* Grapevine.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Grapevine.xcdatamodel; sourceTree = "<group>"; };
+		078F226929907EEF00895E5D /* GrapevineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrapevineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		078F226D29907EEF00895E5D /* GrapevineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapevineTests.swift; sourceTree = "<group>"; };
+		078F227329907EEF00895E5D /* GrapevineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrapevineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		078F227729907EEF00895E5D /* GrapevineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapevineUITests.swift; sourceTree = "<group>"; };
+		078F227929907EEF00895E5D /* GrapevineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapevineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		078F225129907EEA00895E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078F226629907EEF00895E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078F227029907EEF00895E5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078F224B29907EEA00895E5D = {
+			isa = PBXGroup;
+			children = (
+				078F225629907EEA00895E5D /* Grapevine */,
+				078F226C29907EEF00895E5D /* GrapevineTests */,
+				078F227629907EEF00895E5D /* GrapevineUITests */,
+				078F225529907EEA00895E5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		078F225529907EEA00895E5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				078F225429907EEA00895E5D /* Grapevine.app */,
+				078F226929907EEF00895E5D /* GrapevineTests.xctest */,
+				078F227329907EEF00895E5D /* GrapevineUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		078F225629907EEA00895E5D /* Grapevine */ = {
+			isa = PBXGroup;
+			children = (
+				078F225729907EEA00895E5D /* GrapevineApp.swift */,
+				078F225929907EEA00895E5D /* ContentView.swift */,
+				078F225B29907EEF00895E5D /* Assets.xcassets */,
+				078F226029907EEF00895E5D /* Persistence.swift */,
+				078F226229907EEF00895E5D /* Grapevine.xcdatamodeld */,
+				078F225D29907EEF00895E5D /* Preview Content */,
+			);
+			path = Grapevine;
+			sourceTree = "<group>";
+		};
+		078F225D29907EEF00895E5D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				078F225E29907EEF00895E5D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		078F226C29907EEF00895E5D /* GrapevineTests */ = {
+			isa = PBXGroup;
+			children = (
+				078F226D29907EEF00895E5D /* GrapevineTests.swift */,
+			);
+			path = GrapevineTests;
+			sourceTree = "<group>";
+		};
+		078F227629907EEF00895E5D /* GrapevineUITests */ = {
+			isa = PBXGroup;
+			children = (
+				078F227729907EEF00895E5D /* GrapevineUITests.swift */,
+				078F227929907EEF00895E5D /* GrapevineUITestsLaunchTests.swift */,
+			);
+			path = GrapevineUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		078F225329907EEA00895E5D /* Grapevine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078F227D29907EEF00895E5D /* Build configuration list for PBXNativeTarget "Grapevine" */;
+			buildPhases = (
+				078F225029907EEA00895E5D /* Sources */,
+				078F225129907EEA00895E5D /* Frameworks */,
+				078F225229907EEA00895E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Grapevine;
+			productName = Grapevine;
+			productReference = 078F225429907EEA00895E5D /* Grapevine.app */;
+			productType = "com.apple.product-type.application";
+		};
+		078F226829907EEF00895E5D /* GrapevineTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078F228029907EEF00895E5D /* Build configuration list for PBXNativeTarget "GrapevineTests" */;
+			buildPhases = (
+				078F226529907EEF00895E5D /* Sources */,
+				078F226629907EEF00895E5D /* Frameworks */,
+				078F226729907EEF00895E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078F226B29907EEF00895E5D /* PBXTargetDependency */,
+			);
+			name = GrapevineTests;
+			productName = GrapevineTests;
+			productReference = 078F226929907EEF00895E5D /* GrapevineTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		078F227229907EEF00895E5D /* GrapevineUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 078F228329907EEF00895E5D /* Build configuration list for PBXNativeTarget "GrapevineUITests" */;
+			buildPhases = (
+				078F226F29907EEF00895E5D /* Sources */,
+				078F227029907EEF00895E5D /* Frameworks */,
+				078F227129907EEF00895E5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				078F227529907EEF00895E5D /* PBXTargetDependency */,
+			);
+			name = GrapevineUITests;
+			productName = GrapevineUITests;
+			productReference = 078F227329907EEF00895E5D /* GrapevineUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		078F224C29907EEA00895E5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					078F225329907EEA00895E5D = {
+						CreatedOnToolsVersion = 14.2;
+					};
+					078F226829907EEF00895E5D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 078F225329907EEA00895E5D;
+					};
+					078F227229907EEF00895E5D = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 078F225329907EEA00895E5D;
+					};
+				};
+			};
+			buildConfigurationList = 078F224F29907EEA00895E5D /* Build configuration list for PBXProject "Grapevine" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 078F224B29907EEA00895E5D;
+			productRefGroup = 078F225529907EEA00895E5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				078F225329907EEA00895E5D /* Grapevine */,
+				078F226829907EEF00895E5D /* GrapevineTests */,
+				078F227229907EEF00895E5D /* GrapevineUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		078F225229907EEA00895E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078F225F29907EEF00895E5D /* Preview Assets.xcassets in Resources */,
+				078F225C29907EEF00895E5D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078F226729907EEF00895E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078F227129907EEF00895E5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		078F225029907EEA00895E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078F226129907EEF00895E5D /* Persistence.swift in Sources */,
+				078F225A29907EEA00895E5D /* ContentView.swift in Sources */,
+				078F225829907EEA00895E5D /* GrapevineApp.swift in Sources */,
+				078F226429907EEF00895E5D /* Grapevine.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078F226529907EEF00895E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078F226E29907EEF00895E5D /* GrapevineTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		078F226F29907EEF00895E5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				078F227A29907EEF00895E5D /* GrapevineUITestsLaunchTests.swift in Sources */,
+				078F227829907EEF00895E5D /* GrapevineUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		078F226B29907EEF00895E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078F225329907EEA00895E5D /* Grapevine */;
+			targetProxy = 078F226A29907EEF00895E5D /* PBXContainerItemProxy */;
+		};
+		078F227529907EEF00895E5D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 078F225329907EEA00895E5D /* Grapevine */;
+			targetProxy = 078F227429907EEF00895E5D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		078F227B29907EEF00895E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		078F227C29907EEF00895E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		078F227E29907EEF00895E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grapevine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thimu.Grapevine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		078F227F29907EEF00895E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Grapevine/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thimu.Grapevine;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		078F228129907EEF00895E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thimu.GrapevineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grapevine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grapevine";
+			};
+			name = Debug;
+		};
+		078F228229907EEF00895E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thimu.GrapevineTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Grapevine.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Grapevine";
+			};
+			name = Release;
+		};
+		078F228429907EEF00895E5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thimu.GrapevineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Grapevine;
+			};
+			name = Debug;
+		};
+		078F228529907EEF00895E5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.thimu.GrapevineUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Grapevine;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		078F224F29907EEA00895E5D /* Build configuration list for PBXProject "Grapevine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078F227B29907EEF00895E5D /* Debug */,
+				078F227C29907EEF00895E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078F227D29907EEF00895E5D /* Build configuration list for PBXNativeTarget "Grapevine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078F227E29907EEF00895E5D /* Debug */,
+				078F227F29907EEF00895E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078F228029907EEF00895E5D /* Build configuration list for PBXNativeTarget "GrapevineTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078F228129907EEF00895E5D /* Debug */,
+				078F228229907EEF00895E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		078F228329907EEF00895E5D /* Build configuration list for PBXNativeTarget "GrapevineUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				078F228429907EEF00895E5D /* Debug */,
+				078F228529907EEF00895E5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		078F226229907EEF00895E5D /* Grapevine.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				078F226329907EEF00895E5D /* Grapevine.xcdatamodel */,
+			);
+			currentVersion = 078F226329907EEF00895E5D /* Grapevine.xcdatamodel */;
+			path = Grapevine.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 078F224C29907EEA00895E5D /* Project object */;
+}
