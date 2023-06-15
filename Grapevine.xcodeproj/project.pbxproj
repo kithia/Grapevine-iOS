@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0746F6C82A2A38D2004469F3 /* MainActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0746F6C72A2A38D2004469F3 /* MainActivityView.swift */; };
+		0785F7A62992FF2E00E470D6 /* BookModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785F7A52992FF2E00E470D6 /* BookModel.swift */; };
+		0785F7AA2993054500E470D6 /* BookFormatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785F7A92993054500E470D6 /* BookFormatModel.swift */; };
+		0785F7AC2993068000E470D6 /* BookListItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785F7AB2993068000E470D6 /* BookListItemView.swift */; };
+		0785F7AE299312A800E470D6 /* ReadsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0785F7AD299312A800E470D6 /* ReadsView.swift */; };
 		078F225829907EEA00895E5D /* GrapevineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F225729907EEA00895E5D /* GrapevineApp.swift */; };
 		078F225A29907EEA00895E5D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F225929907EEA00895E5D /* ContentView.swift */; };
 		078F225C29907EEF00895E5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 078F225B29907EEF00895E5D /* Assets.xcassets */; };
@@ -16,6 +21,14 @@
 		078F226E29907EEF00895E5D /* GrapevineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F226D29907EEF00895E5D /* GrapevineTests.swift */; };
 		078F227829907EEF00895E5D /* GrapevineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F227729907EEF00895E5D /* GrapevineUITests.swift */; };
 		078F227A29907EEF00895E5D /* GrapevineUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 078F227929907EEF00895E5D /* GrapevineUITestsLaunchTests.swift */; };
+		07B9C8FF2A30B4FB00821BC4 /* BookExpandedItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B9C8FE2A30B4FA00821BC4 /* BookExpandedItemView.swift */; };
+		07B9C9012A31385900821BC4 /* BookDateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B9C9002A31385900821BC4 /* BookDateModel.swift */; };
+		07B9C9032A324D4500821BC4 /* BookCompletionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07B9C9022A324D4500821BC4 /* BookCompletionModel.swift */; };
+		07C75FE72A223EAE000A87E8 /* AddBookItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C75FE62A223EAE000A87E8 /* AddBookItemView.swift */; };
+		07C75FEB2A224214000A87E8 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07C75FEA2A224214000A87E8 /* SearchBar.swift */; };
+		07F9FE002A2E466100CDED6E /* ExploreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9FDFF2A2E466100CDED6E /* ExploreView.swift */; };
+		07F9FE022A2E4EA700CDED6E /* ConversationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9FE012A2E4EA700CDED6E /* ConversationView.swift */; };
+		07F9FE042A2E509C00CDED6E /* BookshopsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F9FE032A2E509C00CDED6E /* BookshopsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +49,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0746F6C72A2A38D2004469F3 /* MainActivityView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainActivityView.swift; sourceTree = "<group>"; };
+		0785F7A52992FF2E00E470D6 /* BookModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookModel.swift; sourceTree = "<group>"; };
+		0785F7A92993054500E470D6 /* BookFormatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BookFormatModel.swift; sourceTree = "<group>"; };
+		0785F7AB2993068000E470D6 /* BookListItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookListItemView.swift; sourceTree = "<group>"; wrapsLines = 1; };
+		0785F7AD299312A800E470D6 /* ReadsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReadsView.swift; sourceTree = "<group>"; };
 		078F225429907EEA00895E5D /* Grapevine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Grapevine.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		078F225729907EEA00895E5D /* GrapevineApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapevineApp.swift; sourceTree = "<group>"; };
 		078F225929907EEA00895E5D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,6 +66,14 @@
 		078F227329907EEF00895E5D /* GrapevineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GrapevineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		078F227729907EEF00895E5D /* GrapevineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapevineUITests.swift; sourceTree = "<group>"; };
 		078F227929907EEF00895E5D /* GrapevineUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GrapevineUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		07B9C8FE2A30B4FA00821BC4 /* BookExpandedItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookExpandedItemView.swift; sourceTree = "<group>"; };
+		07B9C9002A31385900821BC4 /* BookDateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookDateModel.swift; sourceTree = "<group>"; };
+		07B9C9022A324D4500821BC4 /* BookCompletionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookCompletionModel.swift; sourceTree = "<group>"; };
+		07C75FE62A223EAE000A87E8 /* AddBookItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBookItemView.swift; sourceTree = "<group>"; };
+		07C75FEA2A224214000A87E8 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		07F9FDFF2A2E466100CDED6E /* ExploreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExploreView.swift; sourceTree = "<group>"; };
+		07F9FE012A2E4EA700CDED6E /* ConversationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversationView.swift; sourceTree = "<group>"; };
+		07F9FE032A2E509C00CDED6E /* BookshopsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookshopsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +101,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		073F7B472A2F67930088CDCC /* Explore */ = {
+			isa = PBXGroup;
+			children = (
+				07F9FDFF2A2E466100CDED6E /* ExploreView.swift */,
+			);
+			path = Explore;
+			sourceTree = "<group>";
+		};
+		0746F6C62A2A2259004469F3 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0785F7A32992FCB700E470D6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0785F7A52992FF2E00E470D6 /* BookModel.swift */,
+				0785F7A92993054500E470D6 /* BookFormatModel.swift */,
+				07B9C9002A31385900821BC4 /* BookDateModel.swift */,
+				07B9C9022A324D4500821BC4 /* BookCompletionModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0785F7A42992FD2C00E470D6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				073F7B472A2F67930088CDCC /* Explore */,
+				07F9FE092A2E532700CDED6E /* Bookshops */,
+				07F9FE082A2E50D400CDED6E /* Conversation */,
+				07F9FE052A2E50A300CDED6E /* Reads */,
+				0746F6C72A2A38D2004469F3 /* MainActivityView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		078F224B29907EEA00895E5D = {
 			isa = PBXGroup;
 			children = (
@@ -98,12 +162,16 @@
 		078F225629907EEA00895E5D /* Grapevine */ = {
 			isa = PBXGroup;
 			children = (
+				0746F6C62A2A2259004469F3 /* ViewModels */,
+				0785F7A42992FD2C00E470D6 /* Views */,
+				0785F7A32992FCB700E470D6 /* Models */,
 				078F225729907EEA00895E5D /* GrapevineApp.swift */,
 				078F225929907EEA00895E5D /* ContentView.swift */,
 				078F225B29907EEF00895E5D /* Assets.xcassets */,
 				078F226029907EEF00895E5D /* Persistence.swift */,
 				078F226229907EEF00895E5D /* Grapevine.xcdatamodeld */,
 				078F225D29907EEF00895E5D /* Preview Content */,
+				07C75FEA2A224214000A87E8 /* SearchBar.swift */,
 			);
 			path = Grapevine;
 			sourceTree = "<group>";
@@ -131,6 +199,33 @@
 				078F227929907EEF00895E5D /* GrapevineUITestsLaunchTests.swift */,
 			);
 			path = GrapevineUITests;
+			sourceTree = "<group>";
+		};
+		07F9FE052A2E50A300CDED6E /* Reads */ = {
+			isa = PBXGroup;
+			children = (
+				0785F7AD299312A800E470D6 /* ReadsView.swift */,
+				0785F7AB2993068000E470D6 /* BookListItemView.swift */,
+				07C75FE62A223EAE000A87E8 /* AddBookItemView.swift */,
+				07B9C8FE2A30B4FA00821BC4 /* BookExpandedItemView.swift */,
+			);
+			path = Reads;
+			sourceTree = "<group>";
+		};
+		07F9FE082A2E50D400CDED6E /* Conversation */ = {
+			isa = PBXGroup;
+			children = (
+				07F9FE012A2E4EA700CDED6E /* ConversationView.swift */,
+			);
+			path = Conversation;
+			sourceTree = "<group>";
+		};
+		07F9FE092A2E532700CDED6E /* Bookshops */ = {
+			isa = PBXGroup;
+			children = (
+				07F9FE032A2E509C00CDED6E /* BookshopsView.swift */,
+			);
+			path = Bookshops;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -263,10 +358,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0746F6C82A2A38D2004469F3 /* MainActivityView.swift in Sources */,
+				0785F7A62992FF2E00E470D6 /* BookModel.swift in Sources */,
 				078F226129907EEF00895E5D /* Persistence.swift in Sources */,
 				078F225A29907EEA00895E5D /* ContentView.swift in Sources */,
+				07F9FE022A2E4EA700CDED6E /* ConversationView.swift in Sources */,
+				07F9FE002A2E466100CDED6E /* ExploreView.swift in Sources */,
+				0785F7AC2993068000E470D6 /* BookListItemView.swift in Sources */,
+				07B9C9032A324D4500821BC4 /* BookCompletionModel.swift in Sources */,
+				0785F7AE299312A800E470D6 /* ReadsView.swift in Sources */,
+				07B9C9012A31385900821BC4 /* BookDateModel.swift in Sources */,
+				07C75FE72A223EAE000A87E8 /* AddBookItemView.swift in Sources */,
 				078F225829907EEA00895E5D /* GrapevineApp.swift in Sources */,
+				07C75FEB2A224214000A87E8 /* SearchBar.swift in Sources */,
+				0785F7AA2993054500E470D6 /* BookFormatModel.swift in Sources */,
 				078F226429907EEF00895E5D /* Grapevine.xcdatamodeld in Sources */,
+				07F9FE042A2E509C00CDED6E /* BookshopsView.swift in Sources */,
+				07B9C8FF2A30B4FB00821BC4 /* BookExpandedItemView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -407,7 +515,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -425,13 +533,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Grapevine/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Q9793YNLX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Grapevine;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,13 +564,16 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Grapevine/Preview Content\"";
+				DEVELOPMENT_TEAM = 3Q9793YNLX;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Grapevine;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -10,11 +10,12 @@ import SwiftUI
 @main
 struct GrapevineApp: App {
     let persistenceController = PersistenceController.shared
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environment(\.managedObjectContext, persistenceController.container.viewContext)
+            MainActivityView()
+                .tint(colorScheme == .light ? Color("main") : Color.white)
         }
     }
 }
